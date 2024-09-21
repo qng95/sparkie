@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sparkie"
+version = "0.1.0"
+description = ""
+authors = ["Quan Nguyen <quannguyen2281995@gmail.com>"]
+license = "GPL v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+nicegui = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
